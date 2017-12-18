@@ -40,10 +40,16 @@ section {
     margin-bottom: 75px;
     text-transform: none;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  section p.section-description {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0; } }
+    padding: 50px 0; } }
 
 .btn {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -429,6 +435,9 @@ header.masthead {
   margin-bottom: 50px;
   text-align: center; }
   .team-member img {
+    text-align: center;
+    display: block;
+    margin: auto;
     width: 225px;
     height: 225px;
     border: 7px solid #fff; }
